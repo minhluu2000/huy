@@ -19,7 +19,7 @@ int main()
                 bin = bin + rem * place;
                 place = place * 10;
             }
-            printf("%d in binary number ofrmat is: %d\n", num, bin);
+            printf("%d in binary number format is: %d\n", num, bin);
         }
         else if (i == 1) // Part 2
         {
