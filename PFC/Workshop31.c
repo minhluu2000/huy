@@ -21,7 +21,7 @@ int main()
             }
             printf("%d in binary number format is: %d\n", num, bin);
         }
-        else if (i == 1) // Part 2
+        else if (i == 1) // Part 2 - This should be similar to part 1
         {
             int temp = num, sum = 0;
             while (temp > 0)
@@ -31,7 +31,7 @@ int main()
             }
             printf("The sum of all digits in %d is %d\n", num, sum);
         }
-        else if (i == 2) // Part 3
+        else if (i == 2) // Part 3 - Source: https://code4coding.com/c-program-to-reverse-a-number-using-loops/
         {
             int rem = 0, reversed = 0, place = 1;
             int temp = num;
